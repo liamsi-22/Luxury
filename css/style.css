@@ -129,7 +129,6 @@ header{
     position: relative;
     background-image: linear-gradient(135deg,rgba(253, 246, 209, 0.675),white);
 }
-
 .header-item-right{
     width: 50%;
 }
@@ -137,7 +136,6 @@ header{
     width: 100%;
     display: block;
 }
-
 .header-item-left .up{
     position: absolute;
     width: 30%;
@@ -151,7 +149,6 @@ header{
 .header-item-left .up ul li{
     margin-bottom: 4px;
 }
-
 .header-item-left .down{
     position: absolute;
     width: 60%;
@@ -243,115 +240,6 @@ header{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Footer */
-footer{
-    background-image: linear-gradient( rgb(251, 238, 221),white);
-}
-.footer-content{
-    display: flex;
-    justify-content: space-between;
-    height: 75vh;
-}
-    
-.footer-content .left-img{
-    width: 49%;
-    position: relative;
-}
-.footer-content .right-img{
-    width: 49%;
-    position: relative;
-}
-.footer-content .left-img img{
-    width: 100%;
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-.footer-content .right-img img{
-    width: 100%;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    right:  0;
-}
-
-
-.left-img-down{
-    overflow: hidden;
-    position: absolute;
-    height: 25vh;
-    width:70%;
-    background-color: rgb(26, 26, 26);
-    z-index: 10;
-    bottom: 0;
-    left: 0;
-    padding: 40px 60px 40px 60px;
-}
-.left-img-down h3 ,.right-img-up h3{
-    display: block;
-    font-size: 18px;
-    font-weight: 500;
-    padding-bottom: 10px;
-    
-}
-.left-img-down h3,.left-img-down h2{
-    color: white;
-}
-.left-img-down h2,.right-img-up h2{
-    display: block;
-    font-size: 20px;
-    text-transform: capitalize;
-    padding-bottom: 10px;
-}
-.right-img-up span{
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-    font-weight: 100;
-}
-.left-img-down span{
-    cursor: pointer;
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 100;
-}
-.left-img-down a i{
-    font-size: 13px;
-    color: white;
-}
-.right-img-up a i{
-    font-size: 13px;
-    color: rgb(0, 0, 0);
-}
-.right-img-up{
-    overflow: hidden;
-    position: absolute;
-    height: 35%;
-    width: 70%;
-    background-color: rgb(243, 243, 199);
-    z-index: 10;
-    top: 0;
-    right: 0;
-    padding: 40px 60px 40px 60px ;
-}
 
 
 
@@ -476,3 +364,100 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+/* Footer */
+footer{
+    background-image: linear-gradient( rgb(251, 238, 221),white);
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    height: 75vh;
+}
+.footer-content .left-img{
+    width: 49%;
+    position: relative;
+}
+.footer-content .right-img{
+    width: 49%;
+    position: relative;
+}
+.footer-content .left-img img{
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.footer-content .right-img img{
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right:  0;
+}
+.left-img-down{
+    overflow: hidden;
+    position: absolute;
+    height: 25vh;
+    width:70%;
+    background-color: rgb(26, 26, 26);
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    padding: 40px 60px 40px 60px;
+}
+.left-img-down h3 ,.right-img-up h3{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    
+}
+.left-img-down h3,.left-img-down h2{
+    color: white;
+}
+.left-img-down h2,.right-img-up h2{
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.right-img-up span{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 100;
+}
+.left-img-down span{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 100;
+}
+.left-img-down a i{
+    font-size: 13px;
+    color: white;
+}
+.right-img-up a i{
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+.right-img-up{
+    overflow: hidden;
+    position: absolute;
+    height: 35%;
+    width: 70%;
+    background-color: rgb(243, 243, 199);
+    z-index: 10;
+    top: 0;
+    right: 0;
+    padding: 40px 60px 40px 60px ;
+}
